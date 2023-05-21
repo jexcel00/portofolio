@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+//@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+*, *::after,  *::before{
+  font-family: Outfit, sans-serif;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+[data-theme='light']{
+  --primary-color: #4F46E5;
+  --on-primary-color: #fdfdff;
+  --on-primary-transparent-color: #fff1;
+  --surface-color: #fdfdff;
+  --on-surface-color: #1f1f1f;
+  --on-surface-transparent-color: #00000015;
+  --secondary-color: #fdfdff;
+  --on-secondary-color: #131313;
+}
+[data-theme='dark']{
+  --primary-color: #53ff6a;
+  --on-primary-color: #000;
+  --on-primary-transparent-color: #0001;
+  --surface-color: #131313;
+  --on-surface-color: #e0e0e0;
+  --on-surface-transparent-color: #fff2;
+  --secondary-color: #131313;
+  --on-secondary-color: #e0e0e0;
+}
+
+
+
+
+html, body{
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  scroll-behavior: smooth;
+}
+.text-primary{
+  color: var(--primary-color);
+}
+.text-on-primary{
+  color: var(--on-primary-color)
+}
+.bg-primary{
+  background-color: var(--primary-color);
+}
+.bg-on-primary{
+  background-color: var(--on-primary-color)
+}
+.text-on-secondary{
+  color: var(--on-secondary-color)
+} 
+.bg-secondary{
+  background-color: var(--secondary-color)
+}
+.app-divider{
+  display: flex;
+  height: 2px;
+  background-color: var(--on-surface-transparent-color);
+}
+.app-divider-on-primary{
+  display: flex;
+  height: 2px;
+  background-color: var(--on-primary-transparent-color);
+}
