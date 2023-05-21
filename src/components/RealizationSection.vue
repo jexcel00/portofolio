@@ -34,9 +34,9 @@ const realizations = ref([
   },
   {
     title: "Evolution des canaux digitaux",
-    image: "/src/assets/imgs/evo_canaux.jpg",
+    image: "/assets/imgs/evo_canaux.jpg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam aliquam quam. Corporis provident, voluptatibus quod nobis non nemo inventore.",
-    link: "/src/assets/files/canaux_bancaire.pages"
+    link: "/assets/files/canaux_bancaire.pages"
   }
 ])
 </script>
