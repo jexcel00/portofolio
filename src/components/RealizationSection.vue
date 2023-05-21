@@ -9,7 +9,7 @@
             <p class="text-xl text-slate-500">
               {{ realization.description }}
             </p>
-            <a target="_blank" :href="realization.link" class="self-start px-8 py-3 mt-8 rounded-full bg-primary text-on-primary">Voir plus</a>
+            <a target="_blank" v-if="realization.link" :href="realization.link" class="self-start px-8 py-3 mt-8 rounded-full bg-primary text-on-primary">Voir plus</a>
           </div>
           <img :class="{'col-start-1 row-start-1': index % 2 == 1 }" :src="realization.image" style="width: 100%; object-fit: cover; height: 400px;" alt="" srcset=""/>
           
@@ -37,6 +37,28 @@ const realizations = ref([
     image: "/assets/imgs/evo_canaux.jpg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam aliquam quam. Corporis provident, voluptatibus quod nobis non nemo inventore.",
     link: "/assets/files/canaux_bancaire.pages"
-  }
+  },
+
+  {
+    title: "Client lourd PPE",
+    image: "/assets/imgs/client_lourd.jpeg",
+    description: "Ce projet est une application codé en Java avec la structure MVC qui permet de faire la gestion des élèves, moniteurs, formules",
+    link: null
+  },
+  {
+    title: "Calculatrice",
+    image: "/assets/imgs/calculatrice.jpeg",
+    description: `création d'une calculatrice en Java à l'aide de la bibliothèque Swing.
+    J'ai choisi de réaliser ce projet pour apprendre la bibliothèque Swing.
+    Une compétences qui me sera indispensable par la suite.`,
+    link: null
+  },
+  {
+    title: "Convertisseur",
+    image: "/assets/imgs/calculatrice.jpeg",
+    description: `Convertisseur de FCFA vers EURO et vice-versa. Réalisé avec la bibliothèque Java Swing`,
+    link: null
+  },
+  
 ])
 </script>
