@@ -36,7 +36,7 @@ const realizations = ref([
     title: "Evolution des canaux digitaux",
     image: "/imgs/evo_canaux.jpg",
     description: "Durant ma deuxième année de stage il m'a été demandé de faire une étude sur l'évolution des canaux digitaux en Afrique et plus précisément au Cameroun.",
-    link: "/assets/files/canaux_bancaire.pages"
+    link: "/files/canaux_bancaire.pages"
   },
 
   {

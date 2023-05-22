@@ -6,6 +6,7 @@
     <SkillsSection></SkillsSection>
     <CareerSection></CareerSection>
     <RealizationSection></RealizationSection>
+    <TechnologyWatch></TechnologyWatch>
     <ContactSection></ContactSection>
   </div>
   <ThemeSwitcher class="bg-primary text-on-primary"/>
@@ -19,5 +20,6 @@ import SkillsSection from './components/SkillsSection.vue';
 import CareerSection from './components/CareerSection.vue';
 import RealizationSection from "./components/RealizationSection.vue"
 import ContactSection from './components/ContactSection.vue';
+import TechnologyWatch from './components/TechnologyWatch.vue'
 
 </script>
