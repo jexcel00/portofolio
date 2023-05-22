@@ -11,6 +11,5 @@
         et j’aimerais être à la pointe des dernières technologies pour pouvoir apporter ma pierre à l’édifice de cette industrie en constante croissance.
       </span>
     </p>
-    <button class="self-start px-8 py-4 font-bold rounded-lg text-md bg-primary text-on-primary">Me contacter</button>
   </div>
 </template>

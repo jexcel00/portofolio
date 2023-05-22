@@ -29,13 +29,13 @@ const realizations = ref([
   {
     title: "Création d'interfaces",
     image: "/imgs/qr_code_scanning.png",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam aliquam quam. Corporis provident, voluptatibus quod nobis non nemo inventore.",
+    description: `Durant ma première année de stage, afin d'améliorer mes compétences et me familiariser avec les langages html et css j'ai réalisé plusieurs mini-projet de façon indépendante sur le site https://www.frontendmentor.io/.`,
     link: "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"
   },
   {
     title: "Evolution des canaux digitaux",
     image: "/imgs/evo_canaux.jpg",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam aliquam quam. Corporis provident, voluptatibus quod nobis non nemo inventore.",
+    description: "Durant ma deuxième année de stage il m'a été demandé de faire une étude sur l'évolution des canaux digitaux en Afrique et plus précisément au Cameroun.",
     link: "/assets/files/canaux_bancaire.pages"
   },
 
@@ -55,7 +55,7 @@ const realizations = ref([
   },
   {
     title: "Convertisseur",
-    image: "/imgs/calculatrice.jpeg",
+    image: "/imgs/convertisseur.jpeg",
     description: `Convertisseur de FCFA vers EURO et vice-versa. Réalisé avec la bibliothèque Java Swing`,
     link: null
   },

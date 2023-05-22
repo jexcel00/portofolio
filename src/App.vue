@@ -6,6 +6,7 @@
     <SkillsSection></SkillsSection>
     <CareerSection></CareerSection>
     <RealizationSection></RealizationSection>
+    <ContactSection></ContactSection>
   </div>
   <ThemeSwitcher class="bg-primary text-on-primary"/>
 </template>
@@ -17,6 +18,6 @@ import AboutSection from './components/AboutSection.vue';
 import SkillsSection from './components/SkillsSection.vue';
 import CareerSection from './components/CareerSection.vue';
 import RealizationSection from "./components/RealizationSection.vue"
-
+import ContactSection from './components/ContactSection.vue';
 
 </script>

@@ -8,6 +8,16 @@
         <div class="flex flex-col gap-8">
           <div class="flex justify-between">
             <div class="flex flex-col">
+              <span class="text-lg font-bold tracking-widest">Afriland First Bank,</span>
+              <i>Stage</i>
+            </div>
+            <div class="flex flex-col items-end">
+              <span class="text-lg font-medium">11/2022 – 12/2022,</span>
+              <i>Yaounde, Cameroun</i>
+            </div>
+          </div>
+          <div class="flex justify-between">
+            <div class="flex flex-col">
               <span class="text-lg font-bold tracking-widest">ACHA,</span>
               <i>Stage</i>
             </div>

@@ -7,7 +7,7 @@
       dans les délais et avec des résultats de qualité.
     </p>
     <div class="flex gap-4 mt-4">
-      <a class="px-8 py-4 text-lg font-bold rounded-lg bg-primary text-on-primary">Me contacter</a>
+      <a href="#contact" class="px-8 py-4 text-lg font-bold rounded-lg bg-primary text-on-primary">Me contacter</a>
       <a href="#realizations" class="px-8 py-4 text-lg font-bold border border-gray-300 rounded-lg text-on-secondary bg-secondary">Mes realisations</a>
     </div>
   </div>
