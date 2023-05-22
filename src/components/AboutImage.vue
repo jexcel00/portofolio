@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="shadow-xs shadow-2xl" id="about-image" src="@/assets/imgs/tindjou_portrait.jpg" alt="" srcset="">
+    <img class="shadow-xs shadow-2xl" id="about-image" src="/imgs/tindjou_portrait.jpg" alt="" srcset="">
   </div>
 </template>
 <style lang="scss">
