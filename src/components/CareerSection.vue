@@ -40,7 +40,7 @@
 
         <div class="my-20 app-divider-on-primary"></div>
 
-        <h3 class="mb-8 text-xl font-light uppercase" style="letter-spacing: 0.5rem;">Académique</h3>
+        <!-- <h3 class="mb-8 text-xl font-light uppercase" style="letter-spacing: 0.5rem;">Académique</h3>
         <div class="flex flex-col gap-8">
           <div class="flex justify-between">
             <div class="flex flex-col">
@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-        <div class="my-20 app-divider-on-primary"></div>
+        <div class="my-20 app-divider-on-primary"></div> -->
 
         <h3 class="mb-8 text-xl font-light uppercase" style="letter-spacing: 0.5rem;">Engagement étudiant</h3>
         <div class="flex flex-col gap-8">
@@ -80,8 +80,9 @@
           
         </div>
         <div class="my-20 app-divider-on-primary"></div>
-        <div class="flex justify-center">
-          <a href="@/assets/files/Tindjou_Joe_Resume.pdf" class="px-6 py-3 rounded bg-on-primary text-primary">Télécharger mon cv</a>
+        <div class="flex justify-center gap-12">
+          <a target="_blank" href="/files/Tindjou_Joe_Resume.pdf" class="px-6 py-3 font-semibold uppercase rounded bg-on-primary text-primary">Télécharger mon cv</a>
+          <a target="_blank" href="/files/Présentation.pptx" class="px-6 py-3 font-semibold uppercase rounded bg-on-primary text-primary">Engagement Etudiant</a>
         </div>
       </div>
     </div>

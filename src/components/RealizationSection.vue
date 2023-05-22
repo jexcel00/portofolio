@@ -11,7 +11,7 @@
             </p>
             <a target="_blank" v-if="realization.link" :href="realization.link" class="self-start px-8 py-3 mt-8 rounded-full bg-primary text-on-primary">Voir plus</a>
           </div>
-          <img :class="{'col-start-1 row-start-1': index % 2 == 1 }" :src="realization.image" style="width: 100%; object-fit: cover; height: 400px;" alt="" srcset=""/>
+          <img class="shadow-lg" :class="{'col-start-1 row-start-1': index % 2 == 1 }" :src="realization.image" style="width: 100%; object-fit: cover; height: 400px;" alt="" srcset=""/>
           
         </div>
 
@@ -28,26 +28,26 @@ import { ref } from 'vue';
 const realizations = ref([
   {
     title: "Création d'interfaces",
-    image: "/src/assets/imgs/qr_code_scanning.png",
+    image: "/imgs/qr_code_scanning.png",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam aliquam quam. Corporis provident, voluptatibus quod nobis non nemo inventore.",
     link: "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"
   },
   {
     title: "Evolution des canaux digitaux",
-    image: "/assets/imgs/evo_canaux.jpg",
+    image: "/imgs/evo_canaux.jpg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam aliquam quam. Corporis provident, voluptatibus quod nobis non nemo inventore.",
     link: "/assets/files/canaux_bancaire.pages"
   },
 
   {
     title: "Client lourd PPE",
-    image: "/assets/imgs/client_lourd.jpeg",
+    image: "/imgs/client_lourd.jpeg",
     description: "Ce projet est une application codé en Java avec la structure MVC qui permet de faire la gestion des élèves, moniteurs, formules",
     link: null
   },
   {
     title: "Calculatrice",
-    image: "/assets/imgs/calculatrice.jpeg",
+    image: "/imgs/calculatrice.jpeg",
     description: `création d'une calculatrice en Java à l'aide de la bibliothèque Swing.
     J'ai choisi de réaliser ce projet pour apprendre la bibliothèque Swing.
     Une compétences qui me sera indispensable par la suite.`,
@@ -55,7 +55,7 @@ const realizations = ref([
   },
   {
     title: "Convertisseur",
-    image: "/assets/imgs/calculatrice.jpeg",
+    image: "/imgs/calculatrice.jpeg",
     description: `Convertisseur de FCFA vers EURO et vice-versa. Réalisé avec la bibliothèque Java Swing`,
     link: null
   },
